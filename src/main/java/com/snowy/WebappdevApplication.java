@@ -15,9 +15,7 @@ public class WebappdevApplication {
             cpds.setDriverClass("com.mysql.cj.jdbc.Driver");
             cpds.setJdbcUrl("jdbc:mysql://localhost:3306/webappdev?useSSL=false");
             cpds.setUser("root");
-            //cpds.setUser("webappdev");
-            cpds.setPassword("nIpQ1LbTR3xod8MkxAfO");
-            //cpds.setPassword("password");
+            cpds.setPassword("password");
             SpringApplication.run(WebappdevApplication.class, args);
 	}
         public static Connection getConnection() throws SQLException{
